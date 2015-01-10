@@ -1,0 +1,16 @@
+{
+  "name": "r-evex-votingapp",
+  "version": "0.0.0",
+  "homepage": "https://github.com/duanejeffers/r-evex-votingapp",
+  "authors": [
+    "Duane Jeffers <duane@duanejeffers.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
