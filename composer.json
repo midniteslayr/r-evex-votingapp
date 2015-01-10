@@ -1,0 +1,35 @@
+{
+	"name":"duanejeffers/r-evex-votingapp",
+	"description":"Simple Web App to facilitate voting for /r/EVEX",
+	"type":"project",
+	"authors":
+		[
+			{
+				"name":"Duane Jeffers (midniteslayr)",
+				"email":"duane@duanejeffers.com",
+				"homepage":"http://duanejeffers.com",
+				"role":"Developer"
+			}
+		],
+	"license":"MIT",
+	"require":
+		{
+			"duanejeffers/cli.class.php":"dev-master",
+			"slim/slim": "2.*",
+			"j4mie/idiorm": "1.5.1",
+			"tylerjuniorcollege/slim-layout": "dev-master",
+			"rmccue/requests": ">=1.0",
+			"adoy/oauth2": "dev-master",
+			"katzgrau/klogger": "1.0.0"
+		},
+	"require-dev":
+		{
+			"filp/whoops": "1.*",
+			"zeuxisoo/slim-whoops": "0.2.0"	
+		},
+	"autoload":
+		{
+
+		},
+	"prefer-stable": true
+}
