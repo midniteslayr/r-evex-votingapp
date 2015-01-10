@@ -18,7 +18,6 @@
 			"slim/slim": "2.*",
 			"j4mie/idiorm": "1.5.1",
 			"tylerjuniorcollege/slim-layout": "dev-master",
-			"rmccue/requests": ">=1.0",
 			"adoy/oauth2": "dev-master",
 			"katzgrau/klogger": "1.0.0"
 		},
@@ -29,7 +28,7 @@
 		},
 	"autoload":
 		{
-
+			"files":["app/config/config.local.php"]
 		},
 	"prefer-stable": true
 }
