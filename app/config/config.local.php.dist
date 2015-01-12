@@ -1,3 +1,12 @@
 <?php
-
+	
+	// Defining the APPLICATION_MODE allows you to run development code for logging and debugging.
 	define('APPLICATION_MODE', 'production');
+
+	// Defining log location for logger.
+	define('LOG_LOCATION', '../data/logs/log.txt');
+
+	// We're going to require the use of MySQL/MariaDB. The settings below are used to help you set your system up.
+	\ORM::configure('mysql:host=localhost;dbname=revex_voting');
+	\ORM::configure('username', '');
+	\ORM::configure('password', '');
