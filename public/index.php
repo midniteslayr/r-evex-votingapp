@@ -30,4 +30,8 @@
 		$app->render('main/index.php', array());
 	});
 
+	$app->get('/about', function() use($app) {
+		$app->render('main/about.php', array());
+	});
+
 	$app->run();
