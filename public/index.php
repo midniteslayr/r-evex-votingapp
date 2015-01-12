@@ -34,4 +34,8 @@
 		$app->render('main/about.php', array());
 	});
 
+	$app->group('/reddit', function() use($app) {
+		
+	});
+
 	$app->run();
